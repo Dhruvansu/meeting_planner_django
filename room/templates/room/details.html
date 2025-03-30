@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Room: {{room.name}}</title>
+    </head>
+
+    <body>
+        <h1>{{room.name}}</h1>
+        <p>
+            The {{room.name}}, room number is {{room.room_number}} and is on floor {{room.floor_number}}.
+        </p>
+    </body>
+    <a href="{% url 'welcome' %}">
+        Home
+    </a>
+</html>
